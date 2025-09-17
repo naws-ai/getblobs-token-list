@@ -1,0 +1,10 @@
+{
+    "id": "ffc274cd-7431-4614-aa2e-75d9c1791cb1",
+    "chainId": 56,
+    "address": "0x0DF0587216a4a1bB7d5082fdc491d93d2dD4B413",
+    "name": "Cheems",
+    "symbol": "CHEEMS",
+    "decimals": 18,
+    "logoURI": "https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_cheems.png",
+    "cmcLinkKey": "cheems-pet"
+}

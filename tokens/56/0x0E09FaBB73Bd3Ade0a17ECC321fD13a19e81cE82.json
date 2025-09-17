@@ -1,0 +1,10 @@
+{
+    "id": "ac48fc35-42b5-40de-b8a6-50b0e1513ee9",
+    "chainId": 56,
+    "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+    "name": "PancakeSwap",
+    "symbol": "Cake",
+    "decimals": 18,
+    "logoURI": "https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_pancakeswap.svg",
+    "cmcLinkKey": "pancakeswap"
+}

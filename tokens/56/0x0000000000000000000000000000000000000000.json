@@ -1,0 +1,10 @@
+{
+    "id": "45912939-7c90-44e4-a40b-0660317cc537",
+    "chainId": 56,
+    "address": "0x0000000000000000000000000000000000000000",
+    "name": "BNB",
+    "symbol": "BNB",
+    "decimals": 18,
+    "logoURI": "https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_wrappedbnb.png",
+    "cmcLinkKey": "bnb"
+}
