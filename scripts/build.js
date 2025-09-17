@@ -2,7 +2,10 @@ const fs = require('fs');
 const path = require('path');
 
 const TOKENS_DIR = path.join(__dirname, '../tokens');
-const OUTPUT_PATH = path.join(__dirname, '../token-list.json');
+const OUTPUT_JSON_PATH = path.join(__dirname, '../token-list.json');
+const SUPPORTED_TOKENS_MD_PATH = path.join(__dirname, '../SUPPORTED_TOKENS.md');
+const README_TEMPLATE_PATH = path.join(__dirname, '../README.template.md');
+const README_PATH = path.join(__dirname, '../README.md');
 
 function buildTokenList() {
   const tokenList = {
@@ -33,11 +36,52 @@ function buildTokenList() {
     }
   }
 
-  // Sort tokens by symbol
-  tokenList.tokens.sort((a, b) => a.symbol.localeCompare(b.symbol));
+  // Sort tokens by symbol, but keep NAWS at the top
+  const nawsToken = tokenList.tokens.find(t => t.symbol === 'NAWS');
+  const otherTokens = tokenList.tokens.filter(t => t.symbol !== 'NAWS');
+  otherTokens.sort((a, b) => a.symbol.localeCompare(b.symbol));
+  if (nawsToken) {
+    tokenList.tokens = [nawsToken, ...otherTokens];
+  } else {
+    tokenList.tokens = otherTokens;
+  }
 
-  fs.writeFileSync(OUTPUT_PATH, JSON.stringify(tokenList, null, 2));
-  console.log(`✅ Token list built successfully with ${tokenList.tokens.length} tokens.`);
+  // Write JSON file
+  fs.writeFileSync(OUTPUT_JSON_PATH, JSON.stringify(tokenList, null, 2));
+  console.log(`✅ Token list JSON built successfully with ${tokenList.tokens.length} tokens.`);
+
+  // Generate and write Markdown files
+  const markdownTable = generateMarkdownTable(tokenList.tokens);
+  fs.writeFileSync(SUPPORTED_TOKENS_MD_PATH, markdownTable);
+  console.log(`✅ SUPPORTED_TOKENS.md built successfully.`);
+  
+  updateReadme(markdownTable);
+  console.log(`✅ README.md updated successfully.`);
+}
+
+function generateMarkdownTable(tokens) {
+  let markdown = `## Supported Tokens\n\n`;
+  markdown += `Below is a list of tokens currently supported on Binance Smart Chain (Chain ID: 56).\n\n`;
+  markdown += `> **Note**: Tokens without DEX liquidity may be removed from the supported list.\n\n`;
+  markdown += `| Logo | Symbol | Name | Token Contract | CMC Link |\n`;
+  markdown += `| :--- | :--- | :--- | :--- | :--- |\n`;
+
+  for (const token of tokens) {
+    const isNative = token.address === '0x0000000000000000000000000000000000000000';
+    const contractLink = isNative
+      ? 'Native Token'
+      : `[BSC Scan ↗](https://bscscan.com/token/${token.address})`;
+    const cmcLink = `[View on CMC ↗](https://coinmarketcap.com/currencies/${token.cmcLinkKey})`;
+
+    markdown += `| <img src="${token.logoURI}" width="24"> | ${token.symbol} | ${token.name} | ${contractLink} | ${cmcLink} |\n`;
+  }
+  return markdown;
+}
+
+function updateReadme(markdownTable) {
+    const template = fs.readFileSync(README_TEMPLATE_PATH, 'utf8');
+    const newReadme = template.replace('<!-- SUPPORTED_TOKENS_TABLE -->', markdownTable);
+    fs.writeFileSync(README_PATH, newReadme);
 }
 
 buildTokenList();
