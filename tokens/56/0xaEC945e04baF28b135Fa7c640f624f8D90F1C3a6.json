@@ -1,0 +1,10 @@
+{
+    "id": "88cc32e2-a08b-43a7-bd14-2764fcb57b90",
+    "chainId": 56,
+    "address": "0xaEC945e04baF28b135Fa7c640f624f8D90F1C3a6",
+    "name": "Coin98",
+    "symbol": "C98",
+    "decimals": 18,
+    "logoURI": "https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_coin98.png",
+    "cmcLinkKey": "coin98"
+}
