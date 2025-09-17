@@ -1,6 +1,6 @@
-# getBlobs Token List
+# GetBlobs Token List
 
-This repository contains the official token list for getBlobs, a community-driven project to maintain a comprehensive list of ERC20 tokens on various chains.
+This repository contains the official token list for GetBlobs, a community-driven project to maintain a comprehensive list of ERC20 tokens on various chains.
 
 ## Supported Tokens
 
