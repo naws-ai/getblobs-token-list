@@ -1,0 +1,10 @@
+{
+    "id": "eda657d2-1c02-45a4-a5e9-03cc90cdef26",
+    "chainId": 56,
+    "address": "0xC0041EF357B183448B235a8Ea73Ce4E4eC8c265F",
+    "name": "Cookie DAO",
+    "symbol": "COOKIE",
+    "decimals": 18,
+    "logoURI": "https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_cookiedao.png",
+    "cmcLinkKey": "cookie"
+}

@@ -1,0 +1,10 @@
+{
+    "id": "34884524-123e-4876-838c-889efdc84501",
+    "chainId": 56,
+    "address": "0xfb5B838b6cfEEdC2873aB27866079AC55363D37E",
+    "name": "Floki",
+    "symbol": "FLOKI",
+    "decimals": 9,
+    "logoURI": "https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_floki.png",
+    "cmcLinkKey": "floki-inu"
+}

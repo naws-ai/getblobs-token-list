@@ -1,0 +1,10 @@
+{
+    "id": "51d3cbd4-39f2-4f4a-afd4-1c8d1b754191",
+    "chainId": 56,
+    "address": "0xcc6f1e1b87cfcbe9221808d2d85c501aab0b5192",
+    "name": "Dmail Network",
+    "symbol": "DMAIL",
+    "decimals": 18,
+    "logoURI": "https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_dmail.svg",
+    "cmcLinkKey": "dmail-network"
+}

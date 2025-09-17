@@ -1,0 +1,10 @@
+{
+    "id": "00ad860e-9933-4b74-9d0b-98198685488c",
+    "chainId": 56,
+    "address": "0xcF6BB5389c92Bdda8a3747Ddb454cB7a64626C63",
+    "name": "Venus",
+    "symbol": "XVS",
+    "decimals": 18,
+    "logoURI": "https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_venus.png",
+    "cmcLinkKey": "venus"
+}

@@ -1,0 +1,10 @@
+{
+    "id": "j4274cd-7431-4614-aa2e-75d9c1791cd3",
+    "chainId": 56,
+    "address": "0xfb6115445bff7b52feb98650c87f44907e58f802",
+    "name": "Aave",
+    "symbol": "AAVE",
+    "decimals": 18,
+    "logoURI": "https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_aave.png",
+    "cmcLinkKey": "aave"
+}

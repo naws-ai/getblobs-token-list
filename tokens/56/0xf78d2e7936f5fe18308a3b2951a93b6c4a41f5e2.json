@@ -1,0 +1,10 @@
+{
+    "id": "g1274cd-7431-4614-aa2e-75d9c1791cd3",
+    "chainId": 56,
+    "address": "0xf78d2e7936f5fe18308a3b2951a93b6c4a41f5e2",
+    "name": "MANTRA",
+    "symbol": "OM",
+    "decimals": 18,
+    "logoURI": "https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_mantra.png",
+    "cmcLinkKey": "mantra"
+}
