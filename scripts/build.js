@@ -3,9 +3,9 @@ const path = require('path');
 
 const TOKENS_DIR = path.join(__dirname, '../tokens');
 const OUTPUT_JSON_PATH = path.join(__dirname, '../token-list.json');
-const SUPPORTED_TOKENS_MD_PATH = path.join(__dirname, '../SUPPORTED_TOKENS.md');
-const README_TEMPLATE_PATH = path.join(__dirname, '../README.template.md');
 const README_PATH = path.join(__dirname, '../README.md');
+// SUPPORTED_TOKENS.md is now the README
+// const SUPPORTED_TOKENS_MD_PATH = path.join(__dirname, '../SUPPORTED_TOKENS.md'); 
 
 function buildTokenList() {
   const tokenList = {
@@ -50,13 +50,10 @@ function buildTokenList() {
   fs.writeFileSync(OUTPUT_JSON_PATH, JSON.stringify(tokenList, null, 2));
   console.log(`✅ Token list JSON built successfully with ${tokenList.tokens.length} tokens.`);
 
-  // Generate and write Markdown files
+  // Generate and write Markdown file for README
   const markdownTable = generateMarkdownTable(tokenList.tokens);
-  fs.writeFileSync(SUPPORTED_TOKENS_MD_PATH, markdownTable);
-  console.log(`✅ SUPPORTED_TOKENS.md built successfully.`);
-  
-  updateReadme(markdownTable);
-  console.log(`✅ README.md updated successfully.`);
+  fs.writeFileSync(README_PATH, markdownTable);
+  console.log(`✅ README.md built successfully with token list.`);
 }
 
 function generateMarkdownTable(tokens) {
@@ -76,12 +73,6 @@ function generateMarkdownTable(tokens) {
     markdown += `| <img src="${token.logoURI}" width="24"> | ${token.symbol} | ${token.name} | ${contractLink} | ${cmcLink} |\n`;
   }
   return markdown;
-}
-
-function updateReadme(markdownTable) {
-    const template = fs.readFileSync(README_TEMPLATE_PATH, 'utf8');
-    const newReadme = template.replace('<!-- SUPPORTED_TOKENS_TABLE -->', markdownTable);
-    fs.writeFileSync(README_PATH, newReadme);
 }
 
 buildTokenList();

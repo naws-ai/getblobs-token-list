@@ -1,7 +1,3 @@
-# GetBlobs Token List
-
-This repository contains the official token list for getBlobs, maintained by NAWS.AI, to provide a comprehensive list of ERC20 tokens on various chains.
-
 ## Supported Tokens
 
 Below is a list of tokens currently supported on Binance Smart Chain (Chain ID: 56).
@@ -42,51 +38,3 @@ Below is a list of tokens currently supported on Binance Smart Chain (Chain ID: 
 | <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_wrappedbnb.png" width="24"> | WBNB | Wrapped BNB | [BSC Scan ↗](https://bscscan.com/token/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c) | [View on CMC ↗](https://coinmarketcap.com/currencies/wbnb) |
 | <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_why.png" width="24"> | WHY | why | [BSC Scan ↗](https://bscscan.com/token/0x9eC02756A559700d8D9e79ECe56809f7bcC5dC27) | [View on CMC ↗](https://coinmarketcap.com/currencies/why) |
 | <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_venus.png" width="24"> | XVS | Venus | [BSC Scan ↗](https://bscscan.com/token/0xcF6BB5389c92Bdda8a3747Ddb454cB7a64626C63) | [View on CMC ↗](https://coinmarketcap.com/currencies/venus) |
-
-
-## How to Use
-
-The token list is available as an npm package. To use it in your project, install it via npm:
-
-```bash
-npm install @getblobs/token-list
-```
-
-Then you can import the JSON file in your application:
-
-```javascript
-import tokenList from '@getblobs/token-list';
-// or
-const tokenList = require('@getblobs/token-list');
-
-console.log(tokenList.tokens);
-```
-
-## How to Contribute
-
-We welcome contributions to expand our token list. To add a new token, please follow these steps:
-
-1.  **Fork the repository.**
-2.  **Add the token file:**
-    -   Navigate to the `tokens/<chainId>` directory for the appropriate chain. For example, for Binance Smart Chain, use `tokens/56`. If the directory for the chain doesn't exist, feel free to create it.
-    -   Create a new JSON file named after the token's contract address (e.g., `0x<address>.json`). The filename must be checksummed.
-    -   The content of the file should be a JSON object with the following structure:
-        ```json
-        {
-            "id": "To be assigned",
-            "chainId": 56,
-            "address": "TOKEN_CONTRACT_ADDRESS",
-            "name": "Token Name",
-            "symbol": "TKN",
-            "decimals": 18,
-            "logoURI": "URL_TO_TOKEN_LOGO_IMAGE",
-            "cmcLinkKey": "coinmarketcap_slug"
-        }
-        ```
-    -   The `id` field should be set to `"To be assigned"`. The getBlobs team will assign a unique ID when the pull request is merged.
-3.  **Submit a Pull Request:**
-    -   Commit your changes and push them to your fork.
-    -   Open a pull request to the `main` branch of this repository.
-    -   Please ensure your PR includes only the addition of the new token file.
-
-Our team will review your submission, and once approved, it will be merged. The main `token-list.json` is updated automatically.

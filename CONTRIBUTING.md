@@ -1,30 +1,10 @@
-# GetBlobs Token List
+# How to Contribute to getBlobs Token List
 
-This repository contains the official token list for getBlobs, maintained by NAWS.AI, to provide a comprehensive list of ERC20 tokens on various chains.
+We welcome contributions to expand our token list. This document provides all the necessary information for you to get started.
 
-<!-- SUPPORTED_TOKENS_TABLE -->
+## How to Add a New Token
 
-## How to Use
-
-The token list is available as an npm package. To use it in your project, install it via npm:
-
-```bash
-npm install @getblobs/token-list
-```
-
-Then you can import the JSON file in your application:
-
-```javascript
-import tokenList from '@getblobs/token-list';
-// or
-const tokenList = require('@getblobs/token-list');
-
-console.log(tokenList.tokens);
-```
-
-## How to Contribute
-
-We welcome contributions to expand our token list. To add a new token, please follow these steps:
+To add a new token, please follow these steps:
 
 1.  **Fork the repository.**
 2.  **Add the token file:**
@@ -49,4 +29,22 @@ We welcome contributions to expand our token list. To add a new token, please fo
     -   Open a pull request to the `main` branch of this repository.
     -   Please ensure your PR includes only the addition of the new token file.
 
-Our team will review your submission, and once approved, it will be merged. The main `token-list.json` is updated automatically.
+Our team will review your submission, and once approved, it will be merged. The main token list files are updated automatically.
+
+## How to Use This List
+
+The token list is available as an npm package. To use it in your project, install it via npm:
+
+```bash
+npm install @getblobs/token-list
+```
+
+Then you can import the JSON file in your application:
+
+```javascript
+import tokenList from '@getblobs/token-list';
+// or
+const tokenList = require('@getblobs/token-list');
+
+console.log(tokenList.tokens);
+```
