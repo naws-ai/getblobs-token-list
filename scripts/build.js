@@ -70,7 +70,7 @@ function generateMarkdownTable(tokens) {
       : `[BSC Scan ↗](https://bscscan.com/token/${token.address})`;
     const cmcLink = `[View on CMC ↗](https://coinmarketcap.com/currencies/${token.cmcLinkKey})`;
 
-    markdown += `| <img src="${token.logoURI}" width="24" height="24"> | ${token.symbol} | ${token.name} | ${contractLink} | ${cmcLink} |\n`;
+    markdown += `| <img src="${token.logoURI}" style="width: 24px; height: 24px;"> | ${token.symbol} | ${token.name} | ${contractLink} | ${cmcLink} |\n`;
   }
 
   markdown += `\n---\n\n`;
