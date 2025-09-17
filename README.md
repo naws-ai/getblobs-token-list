@@ -1,4 +1,4 @@
-## Supported Tokens
+### Supported Token List on GetBlobs
 
 Below is a list of tokens currently supported on Binance Smart Chain (Chain ID: 56).
 
@@ -38,3 +38,7 @@ Below is a list of tokens currently supported on Binance Smart Chain (Chain ID: 
 | <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_wrappedbnb.png" width="24"> | WBNB | Wrapped BNB | [BSC Scan ↗](https://bscscan.com/token/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c) | [View on CMC ↗](https://coinmarketcap.com/currencies/wbnb) |
 | <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_why.png" width="24"> | WHY | why | [BSC Scan ↗](https://bscscan.com/token/0x9eC02756A559700d8D9e79ECe56809f7bcC5dC27) | [View on CMC ↗](https://coinmarketcap.com/currencies/why) |
 | <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_venus.png" width="24"> | XVS | Venus | [BSC Scan ↗](https://bscscan.com/token/0xcF6BB5389c92Bdda8a3747Ddb454cB7a64626C63) | [View on CMC ↗](https://coinmarketcap.com/currencies/venus) |
+
+---
+
+To request the addition of a new token, please contact [official@naws.ai](mailto:official@naws.ai) or [submit a request on GitHub](https://github.com/naws-ai/getblobs-token-list/blob/main/CONTRIBUTING.md).

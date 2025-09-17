@@ -57,7 +57,7 @@ function buildTokenList() {
 }
 
 function generateMarkdownTable(tokens) {
-  let markdown = `## Supported Tokens\n\n`;
+  let markdown = `### Supported Token List on GetBlobs\n\n`;
   markdown += `Below is a list of tokens currently supported on Binance Smart Chain (Chain ID: 56).\n\n`;
   markdown += `> **Note**: Tokens without DEX liquidity may be removed from the supported list.\n\n`;
   markdown += `| Logo | Symbol | Name | Token Contract | CMC Link |\n`;
@@ -72,6 +72,10 @@ function generateMarkdownTable(tokens) {
 
     markdown += `| <img src="${token.logoURI}" width="24"> | ${token.symbol} | ${token.name} | ${contractLink} | ${cmcLink} |\n`;
   }
+
+  markdown += `\n---\n\n`;
+  markdown += `To request the addition of a new token, please contact [official@naws.ai](mailto:official@naws.ai) or [submit a request on GitHub](https://github.com/naws-ai/getblobs-token-list/blob/main/CONTRIBUTING.md).\n`;
+
   return markdown;
 }
 
