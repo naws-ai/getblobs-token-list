@@ -1,0 +1,25 @@
+{
+  "name": "@getblobs/token-list",
+  "version": "1.0.0",
+  "description": "The official token list for getBlobs.",
+  "main": "token-list.json",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getblobs/getblobs-token-list.git"
+  },
+  "keywords": [
+    "getblobs",
+    "token",
+    "list"
+  ],
+  "author": "getBlobs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/getblobs/getblobs-token-list/issues"
+  },
+  "homepage": "https://github.com/getblobs/getblobs-token-list#readme"
+}
