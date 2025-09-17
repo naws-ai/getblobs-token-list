@@ -1,0 +1,10 @@
+{
+    "id": "de9bfa01-5fef-4956-a4d5-802bfd1d2dda",
+    "chainId": 56,
+    "address": "0xbA2aE424d960c26247Dd6c32edC70B295c744C43",
+    "name": "Dogecoin",
+    "symbol": "DOGE",
+    "decimals": 8,
+    "logoURI": "https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_doge.png",
+    "cmcLinkKey": "dogecoin"
+}
