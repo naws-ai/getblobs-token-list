@@ -1,0 +1,10 @@
+{
+    "id": "ffc274cd-7431-4614-aa2e-75d9c1791cb9",
+    "chainId": 56,
+    "address": "0x86Bb94DdD16Efc8bc58e6b056e8df71D9e666429",
+    "name": "Test",
+    "symbol": "TST",
+    "decimals": 18,
+    "logoURI": "https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_tst.png",
+    "cmcLinkKey": "test-token-bsc"
+}

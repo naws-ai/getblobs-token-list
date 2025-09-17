@@ -1,0 +1,10 @@
+{
+    "id": "814eb427-71ff-4346-acb4-67beb843440b",
+    "chainId": 56,
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 18,
+    "logoURI": "https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_tetherusdt.png",
+    "cmcLinkKey": "tether"
+}

@@ -1,0 +1,10 @@
+{
+    "id": "356bf8a1-d688-4681-80da-c13e765a2759",
+    "chainId": 56,
+    "address": "0x8FFf93E810a2eDaaFc326eDEE51071DA9d398E83",
+    "name": "Bitgert",
+    "symbol": "BRISE",
+    "decimals": 9,
+    "logoURI": "https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_bitrise.svg",
+    "cmcLinkKey": "bitrise-token"
+}

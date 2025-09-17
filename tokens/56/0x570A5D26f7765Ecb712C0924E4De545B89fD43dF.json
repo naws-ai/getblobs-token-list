@@ -1,0 +1,10 @@
+{
+    "id": "8acebddd-f7a1-4996-af1c-622191ce4fa3",
+    "chainId": 56,
+    "address": "0x570A5D26f7765Ecb712C0924E4De545B89fD43dF",
+    "name": "Solana",
+    "symbol": "SOL",
+    "decimals": 18,
+    "logoURI": "https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_solana.png",
+    "cmcLinkKey": "solana"
+}

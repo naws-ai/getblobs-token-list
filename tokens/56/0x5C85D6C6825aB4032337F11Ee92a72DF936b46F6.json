@@ -1,0 +1,10 @@
+{
+    "id": "ffc274cd-7431-4614-aa2e-75d9c1791cb5",
+    "chainId": 56,
+    "address": "0x5C85D6C6825aB4032337F11Ee92a72DF936b46F6",
+    "name": "Mubarak",
+    "symbol": "MUBARAK",
+    "decimals": 18,
+    "logoURI": "https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_mubrarak.png",
+    "cmcLinkKey": "mubarak"
+}

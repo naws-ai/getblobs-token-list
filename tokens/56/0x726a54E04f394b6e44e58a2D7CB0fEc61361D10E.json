@@ -1,0 +1,10 @@
+{
+    "id": "227cb58e-13f8-4e80-99e9-f1a0afd78b6e",
+    "chainId": 56,
+    "address": "0x726a54E04f394b6e44e58a2D7CB0fEc61361D10E",
+    "name": "NAWS.AI",
+    "symbol": "NAWS",
+    "decimals": 18,
+    "logoURI": "https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_naws.png",
+    "cmcLinkKey": "naws-ai"
+}

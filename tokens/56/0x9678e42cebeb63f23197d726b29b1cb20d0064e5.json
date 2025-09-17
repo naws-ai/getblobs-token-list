@@ -1,0 +1,10 @@
+{
+    "id": "7707c3de-c943-4236-89b7-7e30b1d785ad",
+    "chainId": 56,
+    "address": "0x9678e42cebeb63f23197d726b29b1cb20d0064e5",
+    "name": "IoTeX Network",
+    "symbol": "IOTX",
+    "decimals": 18,
+    "logoURI": "https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_iotex.svg",
+    "cmcLinkKey": "iotex"
+}

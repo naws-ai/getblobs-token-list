@@ -1,0 +1,10 @@
+{
+    "id": "e5c41622-725f-4523-b35e-4aca55cd43bc",
+    "chainId": 56,
+    "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "decimals": 18,
+    "logoURI": "https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_usd.png",
+    "cmcLinkKey": "usd-coin"
+}

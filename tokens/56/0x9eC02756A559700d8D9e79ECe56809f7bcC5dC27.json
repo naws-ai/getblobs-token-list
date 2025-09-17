@@ -1,0 +1,10 @@
+{
+    "id": "4add2e79-4f75-40c9-a0a4-a47775738bd8",
+    "chainId": 56,
+    "address": "0x9eC02756A559700d8D9e79ECe56809f7bcC5dC27",
+    "name": "why",
+    "symbol": "WHY",
+    "decimals": 18,
+    "logoURI": "https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_why.png",
+    "cmcLinkKey": "why"
+}

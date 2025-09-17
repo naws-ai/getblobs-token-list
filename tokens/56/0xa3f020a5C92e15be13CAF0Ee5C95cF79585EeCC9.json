@@ -1,0 +1,10 @@
+{
+    "id": "9c18510e-f1b9-4691-a6fd-e965936c3e12",
+    "chainId": 56,
+    "address": "0xa3f020a5C92e15be13CAF0Ee5C95cF79585EeCC9",
+    "name": "aelf",
+    "symbol": "ELF",
+    "decimals": 18,
+    "logoURI": "https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_aelf.svg",
+    "cmcLinkKey": "aelf"
+}

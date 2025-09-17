@@ -1,0 +1,10 @@
+{
+    "id": "ffc274cd-7431-4614-aa2e-75d9c1791cd2",
+    "chainId": 56,
+    "address": "0x7d814b9eD370Ec0a502EdC3267393bF62d891B62",
+    "name": "Bubblemaps",
+    "symbol": "BMT",
+    "decimals": 18,
+    "logoURI": "https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_bubblemaps.png",
+    "cmcLinkKey": "bubblemaps"
+}

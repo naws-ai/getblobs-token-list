@@ -1,0 +1,10 @@
+{
+    "id": "4064fa59-b065-4bdd-8668-1121afedbd1a",
+    "chainId": 56,
+    "address": "0x9840652DC04fb9db2C43853633f0F62BE6f00f98",
+    "name": "ChainGPT",
+    "symbol": "CGPT",
+    "decimals": 18,
+    "logoURI": "https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_chaingpt.png",
+    "cmcLinkKey": "chaingpt"
+}

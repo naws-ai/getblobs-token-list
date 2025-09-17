@@ -1,0 +1,10 @@
+{
+    "id": "2414f5eb-dc9f-4ef6-8dd9-ce292623d1ed",
+    "chainId": 56,
+    "address": "0x59E69094398AfbEA632F8Bd63033BdD2443a3Be1",
+    "name": "Wise Monkey",
+    "symbol": "MONKY",
+    "decimals": 18,
+    "logoURI": "https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_wisemonkey.png",
+    "cmcLinkKey": "wise-monkey"
+}
