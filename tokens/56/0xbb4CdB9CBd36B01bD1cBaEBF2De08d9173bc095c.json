@@ -1,0 +1,10 @@
+{
+    "id": "1351db9d-0d35-48d6-ab33-e1af921ffdf6",
+    "chainId": 56,
+    "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "name": "Wrapped BNB",
+    "symbol": "WBNB",
+    "decimals": 18,
+    "logoURI": "https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_wrappedbnb.png",
+    "cmcLinkKey": "wbnb"
+}
