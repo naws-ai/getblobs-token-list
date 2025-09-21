@@ -13,7 +13,7 @@ To add a new token, please follow these steps:
     -   The content of the file should be a JSON object with the following structure:
         ```json
         {
-            "id": "To be assigned",
+            "id": "",
             "chainId": 56,
             "address": "TOKEN_CONTRACT_ADDRESS",
             "name": "Token Name",
