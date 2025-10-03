@@ -13,7 +13,6 @@ To add a new token, please follow these steps:
     -   The content of the file should be a JSON object with the following structure:
         ```json
         {
-            "id": "",
             "chainId": 56,
             "address": "TOKEN_CONTRACT_ADDRESS",
             "name": "Token Name",
@@ -23,7 +22,6 @@ To add a new token, please follow these steps:
             "cmcLinkKey": "coinmarketcap_slug"
         }
         ```
-    -   The `id` field should be set to `"To be assigned"`. The getBlobs team will assign a unique ID when the pull request is merged.
 3.  **Submit a Pull Request:**
     -   Commit your changes and push them to your fork.
     -   Open a pull request to the `main` branch of this repository.
