@@ -1,4 +1,8 @@
-### Supported Token List on GetBlobs
+# getBlobs Token List
+
+The official token list for getBlobs platform, supporting Binance Smart Chain (BSC) tokens.
+
+## Supported Token List on GetBlobs
 
 Below is a list of tokens currently supported on Binance Smart Chain (Chain ID: 56).
 
@@ -40,5 +44,36 @@ Below is a list of tokens currently supported on Binance Smart Chain (Chain ID: 
 | <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_venus.png" style="width: 24px; height: 24px;"> | XVS | Venus | [BSC Scan ↗](https://bscscan.com/token/0xcF6BB5389c92Bdda8a3747Ddb454cB7a64626C63) | [View on CMC ↗](https://coinmarketcap.com/currencies/venus) |
 
 ---
+
+## Installation
+
+```bash
+npm install @getblobs/token-list
+```
+
+## Usage
+
+```javascript
+import tokenList from '@getblobs/token-list';
+// or
+const tokenList = require('@getblobs/token-list');
+
+console.log(tokenList.tokens);
+```
+
+## Development
+
+```bash
+# Build token list
+npm run build
+
+# Validate token list
+npm run validate
+
+# Run tests
+npm test
+```
+
+## Contributing
 
 To request the addition of a new token, please contact [official@naws.ai](mailto:official@naws.ai) or [submit a request on GitHub](https://github.com/naws-ai/getblobs-token-list/blob/main/CONTRIBUTING.md).
