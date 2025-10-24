@@ -52,12 +52,27 @@ function buildTokenList() {
 
   // Generate and write Markdown file for README
   const markdownTable = generateMarkdownTable(tokenList.tokens);
-  fs.writeFileSync(README_PATH, markdownTable);
-  console.log(`✅ README.md built successfully with token list.`);
+  
+  // Read README.md, find the token list section, and replace it
+  const readmeContent = fs.readFileSync(README_PATH, 'utf8');
+  const startMarker = '<!-- TOKEN_LIST_START -->';
+  const endMarker = '<!-- TOKEN_LIST_END -->';
+  const startIndex = readmeContent.indexOf(startMarker);
+  const endIndex = readmeContent.indexOf(endMarker);
+
+  if (startIndex !== -1 && endIndex !== -1) {
+    const preContent = readmeContent.substring(0, startIndex + startMarker.length);
+    const postContent = readmeContent.substring(endIndex);
+    const newReadmeContent = `${preContent}\n${markdownTable}\n${postContent}`;
+    fs.writeFileSync(README_PATH, newReadmeContent);
+    console.log(`✅ README.md updated successfully with token list.`);
+  } else {
+    console.error('Could not find token list markers in README.md');
+  }
 }
 
 function generateMarkdownTable(tokens) {
-  let markdown = `### Supported Token List on GetBlobs\n\n`;
+  let markdown = `## Supported Token List on GetBlobs\n\n`;
   markdown += `Below is a list of tokens currently supported on Binance Smart Chain (Chain ID: 56).\n\n`;
   markdown += `> **Note**: Tokens without DEX liquidity may be removed from the supported list.\n\n`;
   markdown += `| Logo | Symbol | Name | Token Contract | CMC Link |\n`;
@@ -72,9 +87,6 @@ function generateMarkdownTable(tokens) {
 
     markdown += `| <img src="${token.logoURI}" style="width: 24px; height: 24px;"> | ${token.symbol} | ${token.name} | ${contractLink} | ${cmcLink} |\n`;
   }
-
-  markdown += `\n---\n\n`;
-  markdown += `To request the addition of a new token, please contact [official@naws.ai](mailto:official@naws.ai) or [submit a request on GitHub](https://github.com/naws-ai/getblobs-token-list/blob/main/CONTRIBUTING.md).\n`;
 
   return markdown;
 }

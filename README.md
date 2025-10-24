@@ -3,7 +3,7 @@
 The official token list for getBlobs platform, supporting Binance Smart Chain (BSC) tokens.
 
 ## Supported Token List on GetBlobs
-
+<!-- TOKEN_LIST_START -->
 Below is a list of tokens currently supported on Binance Smart Chain (Chain ID: 56).
 
 > **Note**: Tokens without DEX liquidity may be removed from the supported list.
@@ -44,7 +44,7 @@ Below is a list of tokens currently supported on Binance Smart Chain (Chain ID: 
 | <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_venus.png" style="width: 24px; height: 24px;"> | XVS | Venus | [BSC Scan ↗](https://bscscan.com/token/0xcF6BB5389c92Bdda8a3747Ddb454cB7a64626C63) | [View on CMC ↗](https://coinmarketcap.com/currencies/venus) |
 
 ---
-
+<!-- TOKEN_LIST_END -->
 ## Installation
 
 ```bash
