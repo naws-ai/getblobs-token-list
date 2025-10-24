@@ -2,8 +2,9 @@
 
 The official token list for getBlobs platform, supporting Binance Smart Chain (BSC) tokens.
 
-## Supported Token List on GetBlobs
 <!-- TOKEN_LIST_START -->
+## Supported Token List on GetBlobs
+
 Below is a list of tokens currently supported on Binance Smart Chain (Chain ID: 56).
 
 > **Note**: Tokens without DEX liquidity may be removed from the supported list.
@@ -26,6 +27,7 @@ Below is a list of tokens currently supported on Binance Smart Chain (Chain ID: 
 | <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_doge.png" style="width: 24px; height: 24px;"> | DOGE | Dogecoin | [BSC Scan ↗](https://bscscan.com/token/0xbA2aE424d960c26247Dd6c32edC70B295c744C43) | [View on CMC ↗](https://coinmarketcap.com/currencies/dogecoin) |
 | <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_aelf.svg" style="width: 24px; height: 24px;"> | ELF | aelf | [BSC Scan ↗](https://bscscan.com/token/0xa3f020a5C92e15be13CAF0Ee5C95cF79585EeCC9) | [View on CMC ↗](https://coinmarketcap.com/currencies/aelf) |
 | <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_ethereum.png" style="width: 24px; height: 24px;"> | ETH | Ethereum | [BSC Scan ↗](https://bscscan.com/token/0x2170Ed0880ac9A755fd29B2688956BD959F933F8) | [View on CMC ↗](https://coinmarketcap.com/currencies/ethereum) |
+| <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_fdusd.png" style="width: 24px; height: 24px;"> | FDUSD | First Digital USD | [BSC Scan ↗](https://bscscan.com/token/0xc5f0f7b66764F6ec8C8Dff7BA683102295E16409) | [View on CMC ↗](https://coinmarketcap.com/currencies/first-digital-usd) |
 | <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_artificial.png" style="width: 24px; height: 24px;"> | FET | Artificial Superintelligence Alliance | [BSC Scan ↗](https://bscscan.com/token/0x031b41e504677879370e9dbcf937283a8691fa7f) | [View on CMC ↗](https://coinmarketcap.com/currencies/artificial-superintelligence-alliance) |
 | <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_floki.png" style="width: 24px; height: 24px;"> | FLOKI | Floki | [BSC Scan ↗](https://bscscan.com/token/0xfb5B838b6cfEEdC2873aB27866079AC55363D37E) | [View on CMC ↗](https://coinmarketcap.com/currencies/floki-inu) |
 | <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_iotex.svg" style="width: 24px; height: 24px;"> | IOTX | IoTeX Network | [BSC Scan ↗](https://bscscan.com/token/0x9678e42cebeb63f23197d726b29b1cb20d0064e5) | [View on CMC ↗](https://coinmarketcap.com/currencies/iotex) |
@@ -43,7 +45,6 @@ Below is a list of tokens currently supported on Binance Smart Chain (Chain ID: 
 | <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_why.png" style="width: 24px; height: 24px;"> | WHY | why | [BSC Scan ↗](https://bscscan.com/token/0x9eC02756A559700d8D9e79ECe56809f7bcC5dC27) | [View on CMC ↗](https://coinmarketcap.com/currencies/why) |
 | <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_venus.png" style="width: 24px; height: 24px;"> | XVS | Venus | [BSC Scan ↗](https://bscscan.com/token/0xcF6BB5389c92Bdda8a3747Ddb454cB7a64626C63) | [View on CMC ↗](https://coinmarketcap.com/currencies/venus) |
 
----
 <!-- TOKEN_LIST_END -->
 ## Installation
 
