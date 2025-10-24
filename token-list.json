@@ -168,6 +168,16 @@
       "cmcLinkKey": "ethereum"
     },
     {
+      "id": "k5274cd-7431-4614-aa2e-75d9c1791he3",
+      "chainId": 56,
+      "address": "0xc5f0f7b66764F6ec8C8Dff7BA683102295E16409",
+      "name": "First Digital USD",
+      "symbol": "FDUSD",
+      "decimals": 18,
+      "logoURI": "https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_fdusd.png",
+      "cmcLinkKey": "first-digital-usd"
+    },
+    {
       "id": "i3274cd-7431-4614-aa2e-75d9c1791cd3",
       "chainId": 56,
       "address": "0x031b41e504677879370e9dbcf937283a8691fa7f",
