@@ -1,6 +1,6 @@
 {
   "name": "getBlobs Token List",
-  "timestamp": "2025-10-24T09:17:15.391Z",
+  "timestamp": "2025-11-04T10:09:14.535Z",
   "version": {
     "major": 1,
     "minor": 0,
@@ -296,6 +296,16 @@
       "decimals": 18,
       "logoURI": "https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_usd.png",
       "cmcLinkKey": "usd-coin"
+    },
+    {
+      "id": "k5274cd-7431-4614-aa2e-75d9c2791hz3",
+      "chainId": 56,
+      "address": "0xb3b02E4A9Fb2bD28CC2ff97B0aB3F6B3Ec1eE9D2",
+      "name": "Falcon USD",
+      "symbol": "USDf",
+      "decimals": 18,
+      "logoURI": "https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_USDf.png",
+      "cmcLinkKey": "falcon-finance"
     },
     {
       "id": "814eb427-71ff-4346-acb4-67beb843440b",
