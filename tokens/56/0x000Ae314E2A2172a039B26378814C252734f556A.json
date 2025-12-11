@@ -1,0 +1,11 @@
+{
+    "id": "ac41fe35-4zw1-50ee-aza1-60zce1423ae4",
+    "chainId": 56,
+    "address": "0x000Ae314E2A2172a039B26378814C252734f556A",
+    "name": "Aster",
+    "symbol": "ASTER",
+    "decimals": 18,
+    "logoURI": "https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_aster.png",
+    "cmcLinkKey": "aster"
+}
+
