@@ -1,6 +1,6 @@
 {
   "name": "getBlobs Token List",
-  "timestamp": "2025-12-11T10:49:04.729Z",
+  "timestamp": "2026-05-30T13:16:49.025Z",
   "version": {
     "major": 1,
     "minor": 0,
@@ -36,6 +36,22 @@
       "decimals": 18,
       "logoURI": "https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_aster.png",
       "cmcLinkKey": "aster"
+    },
+    {
+      "chainId": 56,
+      "address": "0x1d28d989f9e3ccb8b15d0cec601734514f958e4d",
+      "name": "Based",
+      "symbol": "BASED",
+      "decimals": 18,
+      "logoURI": "https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_based.png"
+    },
+    {
+      "chainId": 56,
+      "address": "0xDf24f8c21Cb404B3031a450D8e049D6E39FC1fA5",
+      "name": "Billions Network",
+      "symbol": "BILL",
+      "decimals": 18,
+      "logoURI": "https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_billionsnetwork.png"
     },
     {
       "id": "ffc274cd-7431-4614-aa2e-75d9c1791cd2",
@@ -208,6 +224,14 @@
       "cmcLinkKey": "floki-inu"
     },
     {
+      "chainId": 56,
+      "address": "0x1F12B85aAC097E43Aa1555b2881E98a51090e9A6",
+      "name": "Genius Terminal",
+      "symbol": "GENIUS",
+      "decimals": 18,
+      "logoURI": "https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_geniusterminal.png"
+    },
+    {
       "id": "7707c3de-c943-4236-89b7-7e30b1d785ad",
       "chainId": 56,
       "address": "0x9678e42cebeb63f23197d726b29b1cb20d0064e5",
@@ -266,6 +290,14 @@
       "decimals": 18,
       "logoURI": "https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_solana.png",
       "cmcLinkKey": "solana"
+    },
+    {
+      "chainId": 56,
+      "address": "0xb0b92de23baa85fb06208277e925ced53edab482",
+      "name": "Tria",
+      "symbol": "TRIA",
+      "decimals": 18,
+      "logoURI": "https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_tria.png"
     },
     {
       "id": "ffc274cd-7431-4614-aa2e-75d9c1791cb9",
