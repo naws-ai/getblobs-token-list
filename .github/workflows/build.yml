@@ -1,0 +1,17 @@
+name: Build Token List
+
+on:
+  push:
+    branches: [main]
+    paths: ['tokens/**']
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: node scripts/build.js
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'build: update token-list.json + README'
+          file_pattern: 'token-list.json README.md'
