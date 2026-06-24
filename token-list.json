@@ -43,7 +43,8 @@
       "name": "Based",
       "symbol": "BASED",
       "decimals": 18,
-      "logoURI": "https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_based.png"
+      "logoURI": "https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_based.png",
+      "cmcLinkKey": "basedone"
     },
     {
       "chainId": 56,
@@ -51,7 +52,8 @@
       "name": "Billions Network",
       "symbol": "BILL",
       "decimals": 18,
-      "logoURI": "https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_billionsnetwork.png"
+      "logoURI": "https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_billionsnetwork.png",
+      "cmcLinkKey": "billions-network"
     },
     {
       "id": "ffc274cd-7431-4614-aa2e-75d9c1791cd2",
@@ -229,7 +231,8 @@
       "name": "Genius Terminal",
       "symbol": "GENIUS",
       "decimals": 18,
-      "logoURI": "https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_geniusterminal.png"
+      "logoURI": "https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_geniusterminal.png",
+      "cmcLinkKey": "genius-terminal"
     },
     {
       "id": "7707c3de-c943-4236-89b7-7e30b1d785ad",
@@ -297,7 +300,8 @@
       "name": "Tria",
       "symbol": "TRIA",
       "decimals": 18,
-      "logoURI": "https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_tria.png"
+      "logoURI": "https://s3.ap-northeast-2.amazonaws.com/cdn.naws.ai/images/coin-logos/token_symbols_tria.png",
+      "cmcLinkKey": "tria"
     },
     {
       "id": "ffc274cd-7431-4614-aa2e-75d9c1791cb9",
